@@ -16,7 +16,7 @@ app.use(
         env.FRONTEND_URL,
         "http://localhost:3000",
         "https://patient-call-analysis-git-main-yashpawaras-projects.vercel.app",
-        "http://127.0.0.1:3000",
+        "https://patient-call-analysis.vercel.app",
         "https://patient-call-analysis-git-main-yashpawaras-projects.vercel.app",
         "http://localhost:5000",
         "http://127.0.0.1:5000",
