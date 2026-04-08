@@ -1,7 +1,6 @@
 # Docstribe Assignment: Patient Call Analysis System
 
-**🚀 Live Demo:** [Insert Live Link Here]  
-**📺 Video Walkthrough:** [Insert Video Link Here]  
+**🚀 Live Demo:**[ [Live Link] ](https://patient-call-analysis.vercel.app/)  
 **💻 GitHub Repository:** [https://github.com/yashu1412/PatientCallAnalysis](https://github.com/yashu1412/PatientCallAnalysis)
 
 This document outlines the detailed architecture, workflows, algorithms, and application structures comprising the Patient Call Analysis System.
