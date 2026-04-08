@@ -6,6 +6,8 @@
 This document outlines the detailed architecture, workflows, algorithms, and application structures comprising the Patient Call Analysis System.
 
 ---
+<img width="1919" height="1049" alt="image" src="https://github.com/user-attachments/assets/e9479645-2b1e-49c8-a024-27af39c5c24c" />
+
 
 ## 1. System Architecture & Workflow
 
