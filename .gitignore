@@ -1,0 +1,24 @@
+# Node
+node_modules/
+.next/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+.venv/
+
+# Environment Variables
+.env
+.env.local
+.env.*
+
+# Uploads and temporary data
+backend/uploads/
+backend-python/logs/
+backend-python/uploads/
+
+# OS
+.DS_Store
+Thumbs.db

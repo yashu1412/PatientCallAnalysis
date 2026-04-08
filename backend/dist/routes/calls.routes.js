@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const upload_middleware_1 = require("../middlewares/upload.middleware");
+const upload_controller_1 = require("../controllers/upload.controller");
+const transcription_controller_1 = require("../controllers/transcription.controller");
+const analysis_controller_1 = require("../controllers/analysis.controller");
+const router = (0, express_1.Router)();
+router.get("/", upload_controller_1.getAllCalls);
+router.post("/upload", upload_middleware_1.upload.single("audio"), upload_controller_1.uploadCall);
+router.get("/:id", upload_controller_1.getCallById);
+router.post("/:id/transcribe", transcription_controller_1.transcribeCall);
+router.post("/:id/analyze", analysis_controller_1.analyzeTranscript);
+exports.default = router;
