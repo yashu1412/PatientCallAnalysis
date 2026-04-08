@@ -11,17 +11,17 @@ app.use(
   cors({
     origin: (origin, callback) => {
       if (!origin) return callback(null, true);
-      
+
       const allowedOrigins = [
         env.FRONTEND_URL,
         "http://localhost:3000",
-        "http://localhost:3001",
+        "https://patient-call-analysis-git-main-yashpawaras-projects.vercel.app",
         "http://127.0.0.1:3000",
-        "http://127.0.0.1:3001",
+        "https://patient-call-analysis-git-main-yashpawaras-projects.vercel.app",
         "http://localhost:5000",
         "http://127.0.0.1:5000",
       ];
-      
+
       if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
         callback(null, true);
       } else {
