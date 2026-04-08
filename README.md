@@ -34,6 +34,11 @@ The platform operates as a modern monolithic repository decoupled cleanly into a
    - The React ecosystem utilizes `Framer Motion` to dynamically layout data into clean visual blocks mapping original vs translated transcripts, expanding "Evidence Citation" trays, and visualizing LLM confidence metrics.
 
 ---
+<img width="1555" height="1048" alt="image" src="https://github.com/user-attachments/assets/ccdff759-8350-4f3c-9f27-d04b33830ffc" />
+<img width="1608" height="822" alt="image" src="https://github.com/user-attachments/assets/3630f7e0-12af-405a-bb11-aac680cae8b5" />
+<img width="1457" height="801" alt="image" src="https://github.com/user-attachments/assets/5ab26126-25b9-4e38-94f9-ae52fe85e442" />
+<img width="996" height="1047" alt="image" src="https://github.com/user-attachments/assets/9f22628c-aad4-4d22-915f-5052a14957a7" />
+
 
 ## 2. Capability Profile
 
